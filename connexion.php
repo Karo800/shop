@@ -12,7 +12,7 @@
   <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta name="author" content="" />        
   <link rel="shortcut icon" href="assets/images-famma/favicon.png" type="" />
   <title>Famms - Fashion HTML Template</title>     
   <!-- bootstrap core css -->
