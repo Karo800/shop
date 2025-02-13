@@ -20,6 +20,8 @@ define('RACINE_SITE', $_SERVER['DOCUMENT_ROOT'] . '/');
 // Lors de l'enregistrement d'images/photos , nous aurons besoin du chemin complet dossier images pour enregistrer la photo
 // echo RACINE_SITE . 'shop/assets/images/product.jpg';
 
+
+
 define("URL", "http://localhost/PHP%20gg/shop/");
 // <img src="URL
 // Cette constante servira à enregistrer l'URL d'une photo/image dans la BDD, on ne pas conserver la photo physiquement dand la BDD, donc on définit une URL vers le bon dossier.
