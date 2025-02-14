@@ -14,7 +14,7 @@ session_start();
 
 // ------ CHEMIN
 // echo '<pre>'; print_r($SERVER); echo '</pre>';
-define('RACINE_SITE', $_SERVER['DOCUMENT_ROOT'] . '/');
+define('RACINE_SITE', $_SERVER['DOCUMENT_ROOT'] . '/PHP gg/shop/');
 // echo '<pre>'; print_r($RACINE_SITE); echo '</pre>';
 // Cette constante retourne le chemin physique du dossier htdocs sur le serveur, de notre dossier 'shop' sur le serveur.
 // Lors de l'enregistrement d'images/photos , nous aurons besoin du chemin complet dossier images pour enregistrer la photo
@@ -22,7 +22,7 @@ define('RACINE_SITE', $_SERVER['DOCUMENT_ROOT'] . '/');
 
 
 
-define("URL", "http://localhost/PHP%20gg/shop/");
+define("URL", "http://localhost/PHP gg/shop/");
 // <img src="URL
 // Cette constante servira à enregistrer l'URL d'une photo/image dans la BDD, on ne pas conserver la photo physiquement dand la BDD, donc on définit une URL vers le bon dossier.
 
